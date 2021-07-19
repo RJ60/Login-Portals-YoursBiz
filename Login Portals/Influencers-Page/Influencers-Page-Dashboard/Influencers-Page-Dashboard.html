@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset=utf-8 >
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0, height=device-height'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js'></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+    <title>
+        Influencers Page Dashboard
+    </title>
+    
+    <link rel="stylesheet" href="Influencers-Page-Dashboard.css">
+
+    <body>
+        
+<!-- Top navbar -->
+        <nav class="navbar fixed-top">
+            
+                
+                <img src="logo-addekho.png" alt="Ad-Dekho" class="logo">
+                <form class="form-inline" action="/action_page.php">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        ALL
+                        </button>
+                        <!-- Add the dropdown menu -->
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Normal</a>
+                        <a class="dropdown-item " href="#">Active</a>
+                    
+                        </div>
+                        <!-- Dropdown menu for 'ALL' added -->
+
+                <input class="input-search" type="text" placeholder="Search for Online Store, Category, Brands or more... ">
+                
+                <button class="btn btn-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+                </form>
+
+                <div class="Refer">
+                    <a href="#">Refer and Earn</a>
+                </div>
+
+                <div class="vertical-line1">
+                </div>
+
+                <div class="Help">
+                    <a href="#">Help and Support</a> 
+                </div>
+
+                <div class="vertical-line2">
+                </div>
+
+                <img src="Profile-Picture.png" alt="Reload" class="Picture">
+
+                <button type="button" class="fa fa-angle-down">
+                </button>
+                
+        </nav>
+<!-- Topnavbar ends -->
+
+<!-- Second navbar -->
+        <nav class="navbar2">
+
+            <div class="navbar2-links">
+
+                <div class="Product">
+                    <a href="Product">Product</a> 
+                </div>
+
+                <div class="Mobile_Apps">
+                   <a href="Mobile_Apps">Mobile Apps</a> 
+                </div>
+
+                <div class="Merchants">
+                   <a href="Merchants" id="active">Merchants</a>
+                </div>
+
+                <div class="Publishers">
+                   <a href="Publishers">Publishers</a>
+                </div>
+
+                <div class="About_Us">
+                   <a href="About_Us">About Us</a> 
+                </div>
+
+                <div class="Contact_Us">
+                   <a href="Contact_Us">Contact Us</a> 
+                </div>
+
+            </div>
+        </nav>
+<!-- Second navbar ends -->
+
+        
+<!-- Sidebar -->
+        <div class="sidebar">
+
+            <a href="Dashboard" class="active">
+                <img src="grid.png" alt="" class="grid-img">
+                <p id="Dashboard">Dashboard</p>
+            </a>
+
+            <a href="Profile">
+                <i class="fa fa-user"></i>
+                <p id="Profile">Profile</p>
+            </a>
+
+            <a href="Campaign">
+                <i class="fas fa-bullhorn"></i>
+                <p id="Campaign">Campaign</p>
+            </a>
+
+            <a href="Settings">
+                <i class="fas fa-cog"></i>
+                <p id="Settings">Settings</p>
+            </a>
+
+        </div>
+<!-- Sidebar ends -->
+
+<!-- card for content -->
+        <div class="card">
+
+            <div class="Profile">
+
+                <img src="Picture-img.png" alt="Reload" class="Picture-img">
+                <p id="Name">Somani Naik</p>
+
+                <!-- facebook account -->
+                    <i class="fab fa-facebook-f"></i>
+                    <p id="facebook-id">@somaninaik</p>
+                    <p id="likes">87K Page Likes</p>
+
+                <!-- instagram account  -->
+                    <img src="2048px-Instagram_icon 1.png" alt="" class="Instagram-icon">
+                    <p id="instagram-id">@somaninaik</p>
+                    <p id="followers">650K Followers</p>
+
+                <!-- youtube -->
+                    <i class="fab fa-youtube"></i>
+                    <p id="youtube-id">@somaninaik</p>
+                    <p id="subscribers">345K Subscribers</p>
+
+                <!-- text -->
+                <p id="text1">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Deserunt reiciendis sit illo quas
+                    libero impedit dolor officiis quis.
+                </p>
+
+            </div>
+
+            <!-- Campaigns  Requests, accepted etc -->
+            <div class="Campaigns">
+                <div class="Campaigns_Requests">
+                    <div class="icon">
+                        <i class="far fa-envelope"></i>
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="num">
+                        48
+                    </div>
+                    <p id="text1">Campaigns Requests</p>
+                    <p id="text2">in the last 12 months</p>
+                </div>
+
+                <div class="Campaigns_Accepted">
+                    <div class="icon">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                    <div class="num">
+                        48
+                    </div>
+                    <p id="text1">Campaigns Accepted</p>
+                    <p id="text2">in the last 12 months</p>
+                </div>
+
+                <div class="Total_Impressions">
+                    <div class="icon">
+                        <i class="far fa-eye"></i>
+                    </div>
+                    <div class="num">
+                        108
+                    </div>
+                    <p id="text1">Total Impressions</p>
+                </div>
+
+                <div class="Appreciations">
+                    <div class="icon">
+                        <i class="far fa-thumbs-up"></i>
+                    </div>
+                    <div class="num">
+                        48
+                    </div>
+                    <p id="text1">Appreciations</p>
+                </div>
+
+            </div>
+
+            <!-- Analysis -->
+            <div class="Analysis">
+                <p id="Analytics">Analytics</p>
+
+                <!-- Duration -->
+                <div class="Duration">
+
+                    <button type="button" class="btn btn-primary dropdown-toggle " data-toggle="dropdown" id="time-prd">
+                       Last 12 Months
+                    </button>
+                        <!-- Add the dropdown menu -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Last Month</a>
+                            <a class="dropdown-item " href="#">Last Week</a>
+                        </div>
+                </div>
+
+                <!-- Analysis-box -->
+                <div class="Analysis-box">
+
+                    <div class="btns">
+
+                        <button type="button" id="active">
+                            <p id="num1">108</p>
+                            <p id="heading1">Total <br>
+                                 Impressions</p>
+                        </button>
+
+                        <button type="button">
+                            <p id="num2">108</p>
+                            <p id="heading2">Total <br>
+                                Requests</p>
+                        </button>
+
+                        <button type="button">
+                            <p id="num3">108</p>
+                            <p id="heading3">Total <br>
+                                Appreciations</p>
+                        </button>
+                
+                    </div>
+
+                    <!-- <div class="chart">
+                        <canvas id="Total_Impressions-chart" ></canvas>
+                    </div> -->
+
+                    <div class="chart">
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                        <div id="chart_div"></div>
+                        
+                    </div>
+
+                    <div class="time-period">
+                        
+                        <p id="period"></p>
+                    </div>
+                
+
+                    <div class="Total">
+
+                        <p id="total"></p>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Recent Campaigns Request  -->
+            <div class="Campaigns_Requests">
+                
+                <p id="heading">Recent Campaigns Requests</p>
+                <!-- Requests -->
+                <div class="Requests">
+                    
+                    <!-- Request -->
+                    <div class="Request1">
+                    
+                        <img src="Group 585.png" alt="">
+                        <p id="name1">Rupal Soni</p>
+                        <p id="date">On 21/05/2021</p>
+                        <p id="status">Pending</p>
+
+                        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing
+                             elit. Asperiores esse assumenda molestiae beatae cumque sit
+                              voluptate obcaecati architecto, quidem dignissimos?</p>
+
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="Campaign_Scheduled">Campaign Scheduled</p>
+                        <p id="interval">19/03/2021-25/06/2021</p>
+                    </div>
+
+                    <!-- Request -->
+                    <div class="Request2">
+                    
+                        <p id="name2">Rupal Soni</p>
+                        <p id="date">On 21/05/2021</p>
+                        <p id="status">Pending</p>
+
+                        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing
+                             elit. Asperiores esse assumenda molestiae beatae cumque sit
+                              voluptate obcaecati architecto, quidem dignissimos?</p>
+
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="Campaign_Scheduled">Campaign Scheduled</p>
+                        <p id="interval">19/03/2021-25/06/2021</p>
+                    </div>
+
+                    <!-- Request -->
+                    <div class="Request3">
+                    
+                        <p id="name3">Rupal Soni</p>
+                        <p id="date">On 21/05/2021</p>
+                        <p id="status">Pending</p>
+
+                        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing
+                             elit. Asperiores esse assumenda molestiae beatae cumque sit
+                              voluptate obcaecati architecto, quidem dignissimos?</p>
+
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="Campaign_Scheduled">Campaign Scheduled</p>
+                        <p id="interval">19/03/2021-25/06/2021</p>
+                    </div>
+
+                    <!-- View ALL for Camapaigns Request -->
+                    <button class="View_All">
+                        View ALL
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Followers, Messages-->
+            <div class="Followers-Messages">
+
+                <p id="heading">Recent Followers Messages</p>
+
+                <div class="Message">
+                    <div class="name-icon">
+                        
+                    </div>
+                    <p id="name">Satyam Gupta</p>
+                    <i class="far fa-thumbs-up"></i>
+                    <i class="far fa-heart"></i>
+                    <p id="date">21/05/2021</p>
+                    <i class="fas fa-angle-right"></i>
+                    <p id="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Dolores assumenda excepturi voluptatibus odio at unde officia.
+                         Dolores assumenda excepturi voluptatibus odio at unde officia
+                </div>
+
+                <p id="gifts">Gifts Recieved</p>
+                <p id="badges">Badges Earned</p>
+
+                <div class="gift-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <p id="num-gifts">14</p>
+                
+                <div class="badge-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <p id="num-badge">8</p>
+
+                <button class="View_All">
+                    View ALL(18)
+                </button>
+
+            </div>
+
+        </div>
+
+<!-- content finished -->
+       
+ <!-- page footer -->
+        <footer class="page-footer">
+
+            <i class="fab fa-facebook-square"></i>
+
+            <i class="fab fa-twitter-square"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-linkedin-in"></i>
+
+            <div class="Email">
+                <p>Email : <br>
+                contact.yoursbiz@gmail.com</p>
+            </div>
+
+            <div class="Get_our_app">
+                <p>Get our app</p>
+            </div>
+
+            <a href="#"><img src="app1.png" alt="" id="app1"></a> 
+            <a href="#"><img src="app2.png" alt="" id="app2"></a>
+
+            <div class="Company">
+                <h3>COMPANY</h3>
+                
+                    <a href="#">Home</a><br>
+                    <a href="#">Account</a><br>
+                    <a href="#">About Us</a><br>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Careers</a>
+            </div>
+
+            <div class="Quick_link">
+                <h3>QUICK LINK</h3>
+                
+                    <a href="#">Top Stores</a><br>
+                    <a href="#">Popular Categories</a><br>
+                    <a href="#">Deal Of The</a><br>
+                    <a href="#">Popular</a><br>
+                    <a href="#">Coupons</a>
+            </div>
+
+            <div class="Policy">
+                <h3>POLICY</h3>
+                
+                    <a href="#">Terms and Conditions</a><br>
+                    <a href="#">Security</a><br>
+                    <a href="#">Cookies</a><br>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Anti Spam Policy</a>
+            </div>
+
+            <div class="footer-copyright text-center py-3">Copyright@2021,
+                <a href="#" >YoursBiz.</a> All Rights Reserved.
+            </div>
+
+        </footer>
+<!-- page footer ends -->
+
+    </body>
+    <script src="jquery.js"></script> 
+
+    <script src="Influencers-Page-Dashboard.js"></script>
+
+</html>

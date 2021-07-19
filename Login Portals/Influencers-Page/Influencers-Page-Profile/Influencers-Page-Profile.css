@@ -1,0 +1,653 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5ECF5;
+}
+.navbar{
+    position: absolute;
+    background: #F0F1F3;
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    right: 0px;
+top: 0px;
+}
+
+.logo{
+    position: absolute;
+    top: 15%;
+    left: 7.7%;
+    
+}
+
+.form-inline{
+    position: absolute;
+width: 35.4%;
+height: 45.7%;
+left: 29.14%;
+top: 27.14%;
+
+padding: 0%;
+border: 1px solid #BBBBBB;
+box-sizing: border-box;
+}
+
+.dropdown-toggle{
+    background-color: blue;
+}
+
+.form-inline .btn-primary{
+    background: #E0E0E0;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 12.8%;
+    color: #233A6C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.input-search{
+    
+    position: absolute;
+width: 80%;
+height: 100%;
+left: 13%;
+top: 0%;
+padding: 2px;
+font-family: cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+border: none;
+/* line-height: 16px; */
+/* identical to box height */
+}
+
+.btn-secondary{
+    background-color: #FFB400;
+    border-radius: 0px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 7%;
+    height: 100%;
+    border: none;
+}
+
+.btn-secondary .fa-search{
+ color:  #233A6C;
+}
+
+.navbar .Refer a{
+    position: absolute;
+    left: 66.64%;
+    top: 37.5%;
+    width: 7.42%;
+    height: 30.56%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 19px;
+    color: #595959;
+
+}
+
+.navbar .vertical-line1{
+    border-right: 1px solid rgba(89, 89, 89, 0.5);
+    position: absolute;
+    left: 74.5%;
+    top: 37.5%;
+    bottom: 37.5%;    
+}
+
+.navbar .Help a{
+    position: absolute;
+    left: 75.45%;
+    top: 37.5%;
+    width: 10.42%;
+    height: 30.56%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 19px;
+    color: #595959;
+
+}
+
+.navbar .vertical-line2{
+    border-right: 1px solid rgba(89, 89, 89, 0.5);
+    position: absolute;
+    left: 84.45%;
+    top: 37.5%;
+    bottom: 37.5%; 
+}
+
+.navbar .Picture{
+    position: absolute;
+    left: 88.5%;
+    right: 10%;
+    top: 26px;
+    font-size: 25px;
+  overflow: hidden;
+  color: #595959;
+}
+
+.navbar .fa-angle-down{
+    position: absolute;
+    width: 8px;
+    height: 3.95px;
+    right: 8.5%;
+    top: 42%;
+    font-size: 20px;
+    color: #595959;
+    border: none;
+}
+
+/* navbar2 */
+
+.navbar2{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    background-color: #233A6C;
+    color: white;
+    height: 7%;
+    font-size: 20px;
+}
+
+/* .navbar2-links{
+    height: 50px;
+    position: absolute;
+    left: 20%;
+} */
+
+.navbar2 .Product a{
+    width: 15%;
+    position: absolute;
+    left: 12.5%;
+    top: 20%;
+color: #E5E5E5;
+}
+
+.navbar2 .Mobile_Apps a{
+    width: 15%;
+    position: absolute;
+    left: 22.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Merchants a{
+    width: 15%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Publishers a{
+    width: 15%;
+    position: absolute;
+    left: 47.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .About_Us a{
+    width: 15%;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Contact_Us a{
+    width: 15%;
+    position: absolute;
+    left: 72.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 #active{
+    font-weight: bolder;
+}
+
+.sidebar{
+    position: absolute;
+width: 9.21875%;
+height: 80%;
+left: 8.984%;
+top: 20%;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Roboto;
+font-style: bold;
+font-weight: bold;
+font-size: 20px;
+line-height: 16px;
+
+}
+
+.sidebar a{
+    color: #595959;
+
+}
+
+
+
+.sidebar .grid-img{
+    position: absolute;
+width: 24px;
+height: 24.41px;
+left: 45%;
+top: 14%;
+
+}
+
+.sidebar #Dashboard{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.sidebar .fa-user{
+    position: absolute;
+    left: 42%;
+    top: 30%;
+width: 30px;
+height: 35px;
+font-size: 30px;
+color: #595959;
+}
+
+.sidebar #Profile{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+.sidebar .fa-bullhorn{
+    position: absolute;
+    left: 40%;
+    top: 48%;
+    font-size: 30px;
+    transform: rotate(-24.82deg);
+}
+
+.sidebar #Campaign{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+
+.sidebar .fa-cog{
+    font-size: 33px;
+    position: absolute;
+    left: 39%;
+    top: 65%;
+}
+
+.sidebar #Settings{
+    position: absolute;
+    left: 27%;
+    top: 72%;
+    
+}
+
+.sidebar .active{
+    color: #D00000;
+}
+
+/* Sidebar ends */
+
+/* Card for content */
+.card{
+    position: absolute;
+    top: 20%;
+    left: 19.375%;
+    
+    background: #FFFFFF;
+box-shadow: -4px 0px 4px rgba(89, 89, 89, 0.21), 2px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 71.5625%;
+    height: 1097px;
+}
+
+.card .navbar3{
+    width: 100%;
+    height: 57px;
+    background: #FFFFFF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.card .navbar3 div{
+    position: absolute;
+    top: 21px;
+    bottom: 19px;
+}
+
+.card .navbar3 .Basic{
+    position: absolute;
+    left: 7.53%;
+}
+
+.card .navbar3 .Notification{
+    position: absolute;
+    left: 18.668%;
+}
+
+.card .navbar3 .Account{
+    position: absolute;
+    left: 33.4%;
+}
+
+.card .navbar3 .Privacy{
+    position: absolute;
+    left: 44.54%;
+}
+.card .navbar3 a{
+    
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 19px;
+margin-top: 21px;
+margin-left: 46px;
+margin-bottom: 19px;
+color: #595959;
+
+}
+
+.card .navbar3  #active{
+    color: #D00000;
+}
+
+/* card 2 */
+.card .card2{
+    position: absolute;
+width: 92.36%;
+height: 838px;
+left: 3.71%;
+top: 83px;
+
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.card2 .heading{
+    position: absolute;
+width: 36.2%;
+height: 17px;
+left: 3.9%;
+top: 17px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 19.96px;
+line-height: 18px;
+
+color: #595959;
+}
+
+.card2 .form{
+    position: absolute;
+    top: 57px;
+    left: 4.137%;
+    height: 635px;
+    width: 72.1%;
+}
+
+.form label{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+color: #595959;
+margin: 10px;
+}
+
+label[for="last_name"],
+label[for="email"],
+label[for="dob"],
+label[for="state"],
+label[for="language"],
+#last_name,
+#email,
+#dob,
+#state,
+#language
+{
+    position: absolute;
+    left: 50.37%;
+    
+}
+
+.form input{
+    width: 43.11%;
+    height: 32px;
+    background: #FFFFFF;
+border: 0.799644px solid #BBBBBB;
+box-sizing: border-box;
+border-radius: 3px;
+margin: 1px;
+}
+
+#male,
+#female{
+    width: 7.86%;
+}
+input[type="radio"]{
+    width: 1px;
+}
+
+#description{
+    height: 87px;
+    width: 93.27%;
+    background: #FFFFFF;
+border: 0.799644px solid #BBBBBB;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+#category{
+    width: 93.27%;
+    background: #FFFFFF;
+border: 0.799644px solid #BBBBBB;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+.Profile-photo{
+    width: 15.7%;
+    height: 147px;
+    position: absolute;
+    top: 57px;
+    right: 5.4%;
+    background: #FFFFFF;
+border: 0.837004px solid #595959;
+box-sizing: border-box;
+}
+
+.Profile-photo .fa-user{
+    font-size: 110px;
+    color: #595959;
+    float: center;
+    margin-top: 15.9px;
+    margin-left: 18.36%;
+}
+
+.choose-profile-photo{
+    width: 15.7%;
+    height: 28.46px;
+    position: absolute;
+    top: 218.54px;
+    right: 5.4%;
+    background: #14293D;
+border-radius: 2.51101px;
+color: #FFFFFF;
+}
+
+.choose-profile-photo span{
+    margin: 20px;
+    /* padding: 10px; */
+}
+.choose-profile-photo input[type="file"]{
+    -webkit-appearance: none;
+    width: 100%;
+    opacity: 0;
+}
+/* page-footer */
+
+.page-footer{
+    position: absolute;
+width: 100%;
+height: 368px;
+left: 0px;
+top: 1283px;
+
+background: #233A6C;
+}
+
+.page-footer .fa-facebook-square,
+.page-footer .fa-twitter-square,
+.page-footer .fa-instagram
+{
+    position: absolute;
+    top: 23.985%;
+    color: #E5E5E5;
+    
+    font-size: 35px;
+}
+
+.page-footer .fa-facebook-square{
+    left: 8.8%;
+}
+
+.page-footer .fa-twitter-square{
+    left: 11.69%;
+}
+
+.page-footer .fa-instagram{
+    left: 14.654%;
+}
+
+.page-footer .fa-linkedin-in{
+    position: absolute;
+    left: 17.62%;
+    top: 23.985%;
+    background-color: #E5E5E5;
+    color: #233A6C;
+    font-size: 28px;
+    width: 2.1%;
+    height: 8.4%;
+    border-radius: 3px;
+    padding: 1.5px;
+
+}
+
+.page-footer .Email{
+    position: absolute;
+    left: 8.8%;
+    top: 39.656%;
+    width: 15.72%;
+    height: 9.14%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #E5E5E5;
+}
+
+.page-footer .Get_our_app{
+    position: absolute;
+    left: 8.8%;
+    top: 59.656%;
+    width: 6.546%;
+    height: 1.65%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #E5E5E5;
+}
+
+.page-footer .Company,
+.page-footer .Quick_link,
+.page-footer .Policy
+{
+    position: absolute;
+    top: 10%;
+    color: #E5E5E5;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23.85px;
+    line-height: 27px;
+}
+
+.page-footer .Company a,
+.page-footer .Quick_link a,
+.page-footer .Policy a
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    padding: 2px;
+    
+    color: #E5E5E5;
+}
+
+.page-footer .Company{
+    left: 40%;
+}
+.page-footer .Quick_link{
+    left: 60%;
+}
+.page-footer .Policy{
+    left: 80%;
+}
+
+.page-footer .footer-copyright{
+    position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+bottom: 0%;
+
+background: #14213D;
+color: #FFFFFF;
+}
+
+.page-footer .footer-copyright a{
+    color: #FFFFFF;
+}
+/* page footer ends */
+
