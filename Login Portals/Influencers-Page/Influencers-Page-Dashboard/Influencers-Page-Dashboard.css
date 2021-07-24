@@ -461,6 +461,7 @@ color: #595959;
     height: 137.48px;
     border-bottom: 1px solid #C4C4C4;
 }
+
 /* Campaigns Request */
 .card .Campaigns .Campaigns_Requests{
     position: absolute;
@@ -791,9 +792,8 @@ color: #595959;
 
 }
 
-.card .Requests .Request1,
-.card .Requests .Request2,
-.card .Requests .Request3
+.card .Requests .Request
+
 {
     height: 143px;
     width: 100%;
@@ -801,15 +801,14 @@ color: #595959;
 box-sizing: border-box;
 }
 
-.card .Requests .Request1 img{
+.card .Requests .Request img{
     position: absolute;
     left: 23px;
     top: 18px;
 }
 
- .Request1 > #name1,
-.Request2 > #name2,
-.Request3 > #name3{
+.card .Requests .Request #name
+{
     position: absolute;
     top: 16px;
     left: 15.8%;
@@ -821,11 +820,10 @@ line-height: 21px;
 color: #595959;
 }
 
-.card .Requests .Request1 #date,
-.card .Requests .Request2 #date,
-.card .Requests .Request3 #date{
+.card .Requests .Request #date
+{
     position: absolute;
-    top: 47px;
+    top: 44px;
     left: 15.8%;
     font-family: Poppins;
 font-style: normal;
@@ -835,9 +833,8 @@ line-height: 21px;
 color: #595959;
 }
 
-.card .Requests .Request1 #status,
-.card .Requests .Request2 #status,
-.card .Requests .Request3 #status{
+.card .Requests .Request #status
+{
     position: absolute;
     top: 44px;
     left: 31.73%;
@@ -849,9 +846,8 @@ line-height: 21px;
 color: #DD403A;
 }
 
-.card .Requests .Request1 #text,
-.card .Requests .Request2 #text,
-.card .Requests .Request3 #text{
+.card .Requests .Request #text
+{
     position: absolute;
     top: 82px;
     left: 15.8%;
@@ -864,9 +860,8 @@ line-height: 21px;
 color: #595959;
 }
 
-.card .Requests .Request1 .fa-calendar-alt,
-.card .Requests .Request2 .fa-calendar-alt,
-.card .Requests .Request3 .fa-calendar-alt{
+.card .Requests .Request .fa-calendar-alt
+{
     position: absolute;
     top: 10px;
     left: 75.43%;
@@ -874,9 +869,8 @@ color: #595959;
     color: #595959;
 }
 
-.card .Requests .Request1 #Campaign_Scheduled,
-.card .Requests .Request2 #Campaign_Scheduled,
-.card .Requests .Request3 #Campaign_Scheduled{
+.card .Requests .Request #Campaign_Scheduled
+{
     position: absolute;
     top: 6px;
     left: 79.5%;
@@ -888,9 +882,8 @@ line-height: 18px;
 color: #595959;
 }
 
-.card .Requests .Request1 #interval,
-.card .Requests .Request2 #interval,
-.card .Requests .Request3 #interval{
+.card .Requests .Request #interval
+{
     position: absolute;
     top: 31px;
     left: 79.5%;

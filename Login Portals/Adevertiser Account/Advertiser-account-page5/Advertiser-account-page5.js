@@ -14,8 +14,8 @@ function drawChart() {
 
     var options = {
         chart: {
-            // title: 'Company Performance',
-            // subtitle: 'Income, Impression, clicks',
+            // title: '',
+            // subtitle: '',
         },
         bars: 'vertical',
         vAxis: { format: 'decimal' },
